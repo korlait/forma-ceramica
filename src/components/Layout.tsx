@@ -1,0 +1,1 @@
+import type {ReactNode} from "react";import Header from "./Header";export default function Layout({children}:{children:ReactNode}){return <><Header/><main>{children}</main><footer><span>FORMA CERAMICA</span><span>Керамика, фарфор и вещи для красивой жизни.</span><span>© 2026</span></footer></>}
